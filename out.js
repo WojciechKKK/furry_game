@@ -168,10 +168,10 @@ function allGame() {
                 var _messageAlert = document.createElement("p");
                 //dodatkowo
                 var restartButton = document.createElement('p');
-                restartButton.innerText = "Spróbuj ponownie - kliknij tutaj";
+                restartButton.innerText = "Try again - click here";
                 restartButton.classList.add('btnRestart');
 
-                _messageAlert.innerText = "Twój wynik to: " + this.score;
+                _messageAlert.innerText = "Score: " + this.score;
                 _sectionAlert.appendChild(_messageAlert);
                 _sectionAlert.appendChild(restartButton);
                 //przeładowanie strony
@@ -202,7 +202,7 @@ var newButton2 = document.createElement('button');
 var newButton3 = document.createElement('button');
 var newButton4 = document.createElement('button');
 
-messageAlert.innerText = ' Wybierz poziom trudności';
+messageAlert.innerText = ' Choose the level of difficulty';
 newButton1.innerText = 'Easy';
 newButton2.innerText = 'Medium';
 newButton3.innerText = 'Hard';
